@@ -1,0 +1,53 @@
+{
+  "name": "my-roster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html ",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atlaskit/button": "^9.0.9",
+    "@atlaskit/css-reset": "^3.0.1",
+    "@atlaskit/drawer": "^2.1.0",
+    "@atlaskit/field-text": "^7.0.10",
+    "@atlaskit/icon": "^13.8.1",
+    "@atlaskit/modal-dialog": "^7.0.1",
+    "@atlaskit/quick-search": "^4.2.7",
+    "@atlaskit/select": "^5.0.17",
+    "@atlaskit/table-tree": "^4.1.6",
+    "@atlaskit/tag": "^6.0.7",
+    "autoprefixer": "^9.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react-app": "^3.1.2",
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "styled-components": "^3.4.6"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.5.0",
+    "eslint-config-google": "^0.10.0"
+  }
+}

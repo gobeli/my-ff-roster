@@ -1,0 +1,25 @@
+[{
+  "position": "QB",
+  "color": "red"
+}, {
+  "position": "RB",
+  "color": "green"
+}, {
+  "position": "WR",
+  "color": "blue"
+}, {
+  "position": "TE",
+  "color": "yellow"
+}, {
+  "position": "K",
+  "color": "greyLight"
+}, {
+  "position": "DEF",
+  "color": "purple"
+}, {
+  "position": "FLEX",
+  "color": "teal"
+}, {
+  "position": "Bench",
+  "color": ""
+}]

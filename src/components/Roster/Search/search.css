@@ -1,0 +1,4 @@
+.person--active span[role="menuitem"] {
+  background-color: rgb(222, 235, 255);
+  border-radius: 3px;
+}
